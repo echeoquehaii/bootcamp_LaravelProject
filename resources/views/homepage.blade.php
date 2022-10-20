@@ -3,7 +3,7 @@
 </x-navbar>
 
  <div class="hero">
-  <h1>Sito di occhiali belli</h1>
+  <h1>OCCHIALI</h1>
  </div>
 
 
