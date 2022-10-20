@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\serviziController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,5 @@ use App\Http\Controllers\HomepageController;
 */
 
 Route::get('/', [HomepageController::class, 'homepage'])->name('homepage');
+Route::get('/servizi', [serviziController::class, 'servizi'])->name('servizi');
+
