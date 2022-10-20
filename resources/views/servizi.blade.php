@@ -10,10 +10,10 @@
                 @foreach($services as $service)
                     <div class="col-12 col-md-6">
                         <x-cardPrestazione
-                            nome="{{$service["nome"]}}"
-                            descrizione="{{$service["descrizione"]}}"
-                            dottore="{{$service["dottore"]}}"
-                            prezzo="{{$service["prezzo"]}}"
+                            nome="{{$service['nome']}}"
+                            descrizione="{{$service['descrizione']}}"
+                            dottore="{{$service['dottore']}}"
+                            prezzo="{{$service['prezzo']}}"
                         />
                     </div>
                 @endforeach
