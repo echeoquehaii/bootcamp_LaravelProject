@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\ContactMail;
+use App\Mail\contactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Mail;
 class HomepageController extends Controller
 {
     public function homepage(){
-        return view('homepage');
+            return view('homepage');
     }
 
     public function contattaci(){
