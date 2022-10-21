@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>A'nfame</h1>
-    <p>Ti ha scritto {{$contact['name']}} sta cosa: {{$contact['message']}}</p>
+    <p>Ti ha scritto {{$contatto['name']}} sta cosa: {{$contatto['message']}}</p>
 </body>
 </html>

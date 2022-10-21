@@ -19,11 +19,11 @@ class AdminMail extends Mailable
      *
      * @return void
      */
-    public $contact;
+    public $contatto;
 
     public function __construct($contact)
     {
-        $this->contact=$contact;
+        $this->contatto=$contact;
     }
 
     /**
@@ -34,7 +34,7 @@ class AdminMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address($this->contact['email']),
+            from: new Address($this->contatto['email']),
             subject: 'Admin Mail',
         );
     }

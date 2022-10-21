@@ -19,11 +19,11 @@ class ContactMail extends Mailable
      * @return void
      */
 
-    public $contact;
+    public $contatto;
 
     public function __construct($contact)
     {
-        $this->contact=$contact;
+        $this->contatto=$contact;
     }
     /**
      * Get the message envelope.

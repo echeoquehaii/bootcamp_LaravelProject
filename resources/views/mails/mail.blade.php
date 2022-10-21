@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>ciao</h1>
-    <p>Grazie ar cazzo signor/a {{$contact['name']}}</p>
+    <p>Grazie ar cazzo signor/a {{$contatto['name']}}</p>
 </body>
 </html>
