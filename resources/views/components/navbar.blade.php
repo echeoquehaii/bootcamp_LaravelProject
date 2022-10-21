@@ -13,11 +13,12 @@
           <a class="nav-link" aria-current="page" href="{{route("servizi")}}">Servizi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contatti</a>
+          <a class="nav-link" href="{{route("contattaci")}}">Contattaci</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Chi siamo</a>
         </li>
+
       </ul>
     </div>
   </div>

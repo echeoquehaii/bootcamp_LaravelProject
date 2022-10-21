@@ -17,4 +17,7 @@ use App\Http\Controllers\serviziController;
 
 Route::get('/', [HomepageController::class, 'homepage'])->name('homepage');
 Route::get('/servizi', [serviziController::class, 'servizi'])->name('servizi');
+Route::get('/contattaci', [HomepageController::class, 'contattaci'])->name('contattaci');
+
+Route::post('/form', [HomepageController::class, 'form'])->name('form');
 
