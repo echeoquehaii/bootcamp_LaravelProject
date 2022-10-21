@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao</h1>
-    <p>Grazie ar cazzo signor/a {{$contact['name']}}</p>
+    <h1>A'nfame</h1>
+    <p>Ti ha scritto {{$contact['name']}} sta cosa: {{$contact['message']}}</p>
 </body>
 </html>
