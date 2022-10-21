@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\contactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 
 class HomepageController extends Controller
 {
@@ -18,7 +21,9 @@ class HomepageController extends Controller
         $name=$request->input('name');
         $email=$request->input('email');
         $message=$request->input('message');
-        dd($name, $email, $message);
+        $contact=compact('name' , 'message');
+        Mail::to($email)->send(new ContactMail($contact));
+        return redirect(route('homepage'))->with('message' , 'Grazie ar cazzo');
     }
 }
 
