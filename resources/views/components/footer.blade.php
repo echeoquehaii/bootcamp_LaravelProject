@@ -18,7 +18,7 @@
     </div>
     <!-- Copyright -->
     <div class="text-center p-3 foot-end">
-        <span> © 2020 Copyright:</span>
+        <span> © 2022 Copyright:</span>
         <a class="text-white" href="https://aulab.es/">RidateciMatteo.com</a>
     </div>
 </footer>
