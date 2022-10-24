@@ -1,3 +1,4 @@
 @import "bootstrap/dist/css/bootstrap";
 @import "overall";
 @import "@fortawesome/fontawesome-free/css/all";
+@import "cardPrestazione";

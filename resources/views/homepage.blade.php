@@ -7,7 +7,7 @@
     </div>
 @endif
  <div class="hero">
-  <h1>OCCHIALI</h1>
+  <h1>Guarda che è importante!</h1>
  </div>
 
 
