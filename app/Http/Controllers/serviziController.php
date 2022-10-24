@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class serviziController extends Controller
+class serviziController extends BaseController
 {
     public function servizi(){
         $services=[

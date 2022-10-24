@@ -6,12 +6,13 @@ use App\Mail\AdminMail;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\View;
 
 
-class HomepageController extends Controller
+class HomepageController extends BaseController
 {
     public function homepage(){
-            return view('homepage');
+        return view('homepage');
     }
 
     public function contattaci(){
@@ -28,6 +29,11 @@ class HomepageController extends Controller
         Mail::to('admin@admin.es')->send(new AdminMail($contact));
         return redirect(route('homepage'))->with('message' , 'Grazie ar cazzo');
     }
+
+    public function chisiamo(){
+        return view('chisiamo');
+    }
+
 }
 
 

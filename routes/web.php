@@ -1,8 +1,11 @@
 <?php
 
+use Illuminate\View\View;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\serviziController;
+use App\Http\Controllers\chisiamoController;
+use App\Http\Controllers\HomepageController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +24,4 @@ Route::get('/contattaci', [HomepageController::class, 'contattaci'])->name('cont
 
 Route::post('/form', [HomepageController::class, 'form'])->name('form');
 
+Route::get('/chisiamo', [HomepageController::class, 'chisiamo'])->name('chisiamo');

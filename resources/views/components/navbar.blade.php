@@ -16,9 +16,8 @@
           <a class="nav-link" href="{{route("contattaci")}}">Contattaci</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Chi siamo</a>
+          <a class="nav-link" href="{{route("chisiamo")}}">Chi siamo</a>
         </li>
-
       </ul>
     </div>
   </div>
