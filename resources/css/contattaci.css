@@ -1,5 +1,6 @@
 .contattaci-container{
   background-color: #CAF5DD;
+  flex-wrap: wrap;
 }
 
 .contattaci-hero{
